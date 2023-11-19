@@ -1,0 +1,80 @@
+/* هذا هو ملف CSS منفصل لتنسيق عناصر HTML */
+.body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    background-color: #003869;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.nav {
+    background-color: #447cad;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav a {
+    color: black;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    color: blue;
+}
+
+.main {
+    margin: 20px;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-shadow: 0 0 10px #ccc;
+}
+
+.contact-form h2 {
+    text-align: center;
+}
+
+.contact-form h5 label {
+    text-align: center;
+}
+.contact-form label {
+    text-align: left;
+    display: block;
+    margin-top: 10px;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #000000;
+}
+
+.contact-form button {
+    display: block;
+    margin-top: 10px;
+    width: 30%;
+    padding: 10px;
+    background-color: #003869;
+    color: white;
+    border: none;
+}
+
+.contact-form button:hover {
+    background-color: #444;
+}
+
+.footer {
+    background-color: #003869;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}

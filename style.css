@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+#header {
+    background-color: #003869;
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+#logo {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
+
+#intro {
+    max-width: 800px;
+    padding-bottom: 2%;
+}
+
+#intro h1 {
+    font-family: Arial, sans-serif;
+    font-size: 36px;
+    color: #FFFFFF;
+}
+
+#intro p {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+#cta {
+    display: inline-block;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #333333;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+#cta:hover {
+    background-color: #666666;
+}
+
+#nav {
+    background-color: #333333;
+}
+
+#nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+#nav ul li {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+}
+
+#nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px;
+}
+
+#nav ul li a:hover {
+    background-color: #666666;
+}
+
+#nav ul li a.active {
+    background-color: #999999;
+}
+
+#main {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    padding-left: 2%;
+}
+
+#video {
+    width: 50%;
+}
+
+#video video {
+    width: 100%;
+    height: auto;
+}
+
+#content {
+    width: 50%;
+    padding-top: 3%;
+    padding-right: 3%;
+    padding-left: 3%;
+    padding-bottom: 3%;
+}
+
+#content h2 {
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    color: #333333;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#content p {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    color: #000000;
+    margin-bottom: 10px;
+    text-align: right;
+}
+
+#testimonials {
+    margin-top: 20px;
+}
+
+#testimonials h3 {
+    font-family: Arial, sans-serif;
+  }
+#footer {
+    background-color: #003869;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    margin-top: 3%;
+}
+#footer p {
+    color: #FFFFFF;
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+    font-size: 1rem;
+}

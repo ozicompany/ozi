@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ozi Login</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body style="background-color: #003869; text-align: center;">
+    <!-- Use the text-align: center property to center the image and other elements -->
+    <img src="logo.jpeg" width=30%>
+    <!-- Use a form tag to wrap the form elements -->
+    <form class="form-container" action="register.html" method="POST">
+        <!-- Use a div tag to group the label and input elements -->
+        <div>
+            <label for="username">Username/ID : </label>
+            <!-- Use the for attribute to link the label to the input -->
+            <!-- Use the required attribute to make the input mandatory -->
+            <!-- Use the placeholder attribute to show a hint text -->
+            <input type="text" id="username" name="username" required placeholder="Enter your username or ID">
+        </div>
+        <div>
+            <label for="password">Password : </label>
+            <input type="password" id="password" name="password" required placeholder="Enter your password">
+        </div>
+        <button type="submit">Login</button>
+        <button type="reset">Cancel</button>
+    </form>
+</body>
+</html> 

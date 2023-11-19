@@ -1,0 +1,33 @@
+/* Add some style to the form and its elements */
+.body {
+    background-color: #003869; 
+    text-align: center;
+}
+.form-container {
+    width: 50%;
+    margin: auto;
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+label {
+    display: block;
+    margin: 10px 0;
+}
+
+input {
+    width: 80%;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    width: 20%;
+    padding: 5px;
+    margin: 10px 0;
+    background-color: #003869;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
