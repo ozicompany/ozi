@@ -1,37 +1,57 @@
 <html>
 <head>
-    <title>Ozi - مستشار تعليمي متخصص في التقديم للطلبة في جامعة قبرص الدولية</title>
+    <title>Ozi</title>
     <link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.css">
 </head>
 <body>
     <div id="header">
         <img src="logo.jpeg" alt="Ozi logo" id="logo">
         <div id="intro">
-            <h1>Ozi</h1>
-            <p>مستشار تعليمي متخصص في التقديم للطلبة في جامعة قبرص الدولية</p>
-            <a href="contact.html" id="cta">اتصل بنا الآن</a>
         </div>
     </div>
-    <div id="nav">
-        <ul>
-            <li><a href="about.html">من نحن</a></li>
-            <li><a href="login.html">خدماتنا</a></li>
-			<li><a href="index.html" class="active">الرئيسية</a></li>
-        </ul>
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand">Ozi</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About us</a>
+        </li>
+		<li class="nav-item">
+          <a class="nav-link" href="login.html">Services</a>
+        </li>
+      </ul>
     </div>
-    <div id="main">
-        <div id="video">
-           <iframe width="500" height="300" src="https://www.youtube.com/embed/Q9gUj46m20o?si=XB6T_ggc2srjVn6q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        </div>
+  </div>
+</nav>
+	<div id="ciu">
+		<h3>مستشار تعليمي متخصص في التقديم للطلبة في جامعة قبرص الدولية</h3>
+	</div>
+<div id="main">
+    <div id="video">
+          <iframe width="500" height="300" src="https://www.youtube.com/embed/Q9gUj46m20o?si=XB6T_ggc2srjVn6q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  </div>
         <div id="content">
             <h2>(Ozi) مرحبا بك في</h2>
             <p>نحن شركة أستشارية تعليمية تساعد الطلاب الراغبين في الدراسة في جامعة قبرص الدولية. نحن نقدم لك الدعم والإرشاد في كل خطوة من خطوات التقديم والقبول والتسجيل والحصول على التأشيرة والسكن والمنح الدراسية وغيرها من الخدمات التي تحتاجها لتحقيق حلمك في الدراسة في جامعة قبرص الدولية.</p>
             <p>جامعة قبرص الدولية هي جامعة خاصة معترف بها دوليا ومعتمدة من قبل وزارة التعليم العالي في قبرص. تقدم الجامعة برامج دراسية متنوعة في مجالات مثل الهندسة والعلوم والفنون والإدارة والتربية والصحة والقانون والعلاقات الدولية وغيرها. تتميز الجامعة بمناهجها الحديثة ومرافقها المتطورة وهيئتها التدريسية المؤهلة وطلابها المتنوعين من مختلف الجنسيات والثقافات.</p>
-            </div>
-        </div>
+      </div>
+</div>
     </div>
     <div id="footer">
         <p>جميع الحقوق محفوظة لشركة Ozi © 2023</p>
     </div>
+	
+  <!-- رابط ملف jQuery -->
+  <script src="bootstrap/js/jquery-3.5.1.slim.min.js"></script>
+  <!-- رابط ملف Bootstrap.js -->
+  <script src="bootstrap/js/bootstrap.min.js"></script>
 </body>
 </html>
