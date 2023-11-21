@@ -8,8 +8,6 @@
 #header {
     background-color: #003869;
     display: flex;
-    align-items: center;
-    padding-top: 20px;
     padding-right: 20px;
     padding-left: 20px;
 }
@@ -18,24 +16,6 @@
     width: 100px;
     height: 100px;
     margin-right: 20px;
-}
-
-#intro {
-    max-width: 800px;
-    padding-bottom: 2%;
-}
-
-#intro h1 {
-    font-family: Arial, sans-serif;
-    font-size: 36px;
-    color: #FFFFFF;
-}
-
-#intro p {
-    font-family: Arial, sans-serif;
-    font-size: 18px;
-    color: #FFFFFF;
-    margin-bottom: 10px;
 }
 
 #cta {
@@ -81,22 +61,20 @@
 #nav ul li a.active {
     background-color: #999999;
 }
-
+#ciu {
+    text-align: center;
+    margin-top: 30px;
+}
 #main {
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 5%;
-    margin-top: 5%;
     padding-left: 2%;
+    margin-top: 35px;
+    margin-bottom: 35px;
 }
 
 #video {
     width: 50%;
-}
-
-#video video {
-    width: 100%;
-    height: auto;
 }
 
 #content {
@@ -140,4 +118,19 @@
     color: #FFFFFF;
     font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
     font-size: 1rem;
+}
+
+@media (max-width:1000px){
+	#video {
+    	width: 100%;
+	}
+
+	#content {
+    	width: 100%;
+    	padding-top: 3%;
+    	padding-right: 3%;
+    	padding-left: 3%;
+    	padding-bottom: 3%;
+	}
+
 }
