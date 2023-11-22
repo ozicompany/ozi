@@ -120,17 +120,13 @@
     font-size: 1rem;
 }
 
-@media (max-width:600px){
+@media (max-width:1500px){
 	#video {
     	width: 100%;
 	}
 
 	#content {
     	width: 100%;
-    	padding-top: 3%;
-    	padding-right: 3%;
-    	padding-left: 3%;
-    	padding-bottom: 3%;
 	}
 
 }
