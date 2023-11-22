@@ -120,7 +120,7 @@
     font-size: 1rem;
 }
 
-@media (max-width:1200px){
+@media (max-width:600px){
 	#video {
     	width: 100%;
 	}
